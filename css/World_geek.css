@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Tektur', cursive;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    font-size: 21px;
+}
+
+
+header {
+    padding: 16px 0;
+    background-image: linear-gradient(to bottom right, red, #0ff);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.logos img {
+    height: 35px;
+}
+
+.logos li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+section .logo-loja {
+    height: 300px;
+    width: 35%;
+}
+
+section .container {
+    align-items: flex-start;
+}
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    background-image: linear-gradient(to bottom right, red, #0ff);
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section img {
+    margin-right: 32px;
+    height: 300px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+section .container {
+    align-items: flex-start;
+    display: block;
+}
+
+
+.container h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles article img {
+    height: 250px;
+}
+
+.articles article {
+    width: 50%;
+    box-shadow: 5px 5px 10px rgb(223, 217, 217);
+}
+
+.articles article p,
+.articles article a {
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    margin: 15px 35px;
+}
+
+.articles article a {
+    background-image: linear-gradient(to bottom right, red, #0ff);
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    position: relative;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+.articles article h3 {
+    font-size: 24px;
+
+}
+
+.img {
+    height: 200px;
+}
+
+.redes-sociais img {
+    height: 35px;
+}
+
+.redes-sociais li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.redes-sociais li a {
+    text-decoration: none;
+}
+
+footer {
+    padding: 16px 0;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, red, #0ff);
+}
